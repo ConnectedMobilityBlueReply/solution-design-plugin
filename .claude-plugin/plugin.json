@@ -1,0 +1,20 @@
+{
+  "name": "solution-design",
+  "version": "1.0.0",
+  "description": "Generazione guidata di documenti Solution-Design per la wiki GitLab secondo il template Unipol: intervista approfondita, pagine markdown locali (una per sezione) e diagrammi PlantUML inline.",
+  "author": {
+    "name": "Enzo Pio Palmisano",
+    "email": "e.palmisano@reply.it"
+  },
+  "license": "Proprietary",
+  "keywords": [
+    "solution-design",
+    "unipol",
+    "unisalute",
+    "wiki",
+    "gitlab",
+    "plantuml",
+    "architettura",
+    "drakkar"
+  ]
+}
