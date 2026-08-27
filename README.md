@@ -18,11 +18,20 @@ Contiene 14 skill: un'orchestratrice (`write-solution-design`) e 13 skill di sez
 
 ### Come plugin Claude Code
 
+`claude plugin install` installa solo da marketplace già registrati: prima aggiungere questo repo come marketplace, poi installare il plugin.
+
 ```bash
-claude plugin install gh:ConnectedMobilityBlueReply/solution-design-plugin
+claude plugin marketplace add ConnectedMobilityBlueReply/solution-design-plugin
+claude plugin install solution-design@solution-design-plugin
 ```
 
 Poi riavviare Claude Code (o ricaricare la sessione) affinché le skill vengano caricate.
+
+Per aggiornare dopo un `git pull` a monte:
+
+```bash
+claude plugin marketplace update solution-design-plugin
+```
 
 ### Installazione via npx skills
 

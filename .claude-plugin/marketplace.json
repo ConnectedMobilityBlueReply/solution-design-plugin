@@ -1,0 +1,13 @@
+{
+  "name": "solution-design-plugin",
+  "owner": {
+    "name": "ConnectedMobilityBlueReply"
+  },
+  "plugins": [
+    {
+      "name": "solution-design",
+      "source": "./",
+      "description": "Generazione guidata di documenti Solution-Design per la wiki GitLab secondo il template Unipol."
+    }
+  ]
+}
